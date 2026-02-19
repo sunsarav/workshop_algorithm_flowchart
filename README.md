@@ -19,10 +19,10 @@ Design an algorithm and flowchart that take a number as input and determine whet
 ![evenodd](https://github.com/user-attachments/assets/faebf47c-6bc5-4ede-a5a5-ed90f26c00a5)
 
 
-2. Calculate Total and Average Marks
+## 2. Calculate Total and Average Marks
 Write the algorithm and draw the flowchart for a program that inputs marks for 3 subjects, calculates the total and average, and displays both.
 
-Pseudocode
+### Pseudocode
    
     START
         INPUT m1
@@ -34,15 +34,15 @@ Pseudocode
                 PRINT Average
     END
 
-Flowchart
+### Flowchart
 
 ![totalavg](https://github.com/user-attachments/assets/d399d0e5-e403-48ed-ac2f-4934de468ebb)
 
 
-3. Display Multiplication Table
+## 3. Display Multiplication Table
 Create an algorithm and flowchart that input a number and display its multiplication table from 1 to 10 using a loop.
 
-Pseudocode
+### Pseudocode
    
     START
         INPUT number n
@@ -54,15 +54,15 @@ Pseudocode
             END WHILE
     END
 
-Flowchart
+### Flowchart
 
 ![multable](https://github.com/user-attachments/assets/5351db3a-ea90-4772-abca-452d80bf58e7)
 
 
-4. Positive, Negative, or Zero Check
+## 4. Positive, Negative, or Zero Check
 Write the algorithm and flowchart to input a number and display whether it is positive, negative, or zero.
 
-Pseudocode
+### Pseudocode
     
     START
         INPUT number n
@@ -75,12 +75,12 @@ Pseudocode
             END IF
     END
 
-Flowchart
+### Flowchart
 
 ![posnegativ](https://github.com/user-attachments/assets/f12b626d-8f27-4bd2-b534-a57be59d1f94)
 
 
-5. Simple Interest Calculator
+## 5. Simple Interest Calculator
 Create an algorithm and flowchart for a program that calculates simple interest using the formula:
 
 SI = (P × R × T) / 100
@@ -89,7 +89,7 @@ P = Principle → original amount of money
 R = Rate of Interest → percentage per year
 T = Time → number of years
 
-Pseudocode
+### Pseudocode
     
     START
         INPUT Principle P
@@ -99,14 +99,14 @@ Pseudocode
         PRINT SI
     END
         
-Flowchart
+### Flowchart
 
 ![siminterest](https://github.com/user-attachments/assets/a144151e-09c5-4c7d-a971-2e5b906a6795)
 
-6. Average Temperature Calculation
+## 6. Average Temperature Calculation
 Write the algorithm and draw the flowchart for a program that takes the temperature of 7 days, finds the average temperature, and displays it.
 
-Pseudocode
+### Pseudocode
     
     START
         SET sum_temp = 0.0
@@ -121,15 +121,15 @@ Pseudocode
                 PRINT "Average temperature of the week" + avg_temp
     END
 
-Flowchart
+### Flowchart
 
 ![avgtemp](https://github.com/user-attachments/assets/1f4cfec1-591b-43a3-ac8b-ca71087a5ff1)
 
 
-7. Calculate Area of a Rectangle
+## 7. Calculate Area of a Rectangle
 Create an algorithm and flowchart to input length and width, calculate the area (Area = Length × Width), and display the result.
 
-Pseudocode
+### Pseudocode
     
     START
         INPUT length l
@@ -138,15 +138,15 @@ Pseudocode
         PRINT Area
     END
 
-Flowchart
+### Flowchart
 
 ![rectarea](https://github.com/user-attachments/assets/42943de7-41eb-43dc-88fc-9e469f67b6a5)
 
 
-8. Determine Pass or Fail
+## 8. Determine Pass or Fail
 Write the algorithm and draw the flowchart for a program that takes a student's average marks and displays "Pass" if average ≥ 50, otherwise "Fail".
 
-Pseudocode
+### Pseudocode
 
     START
         INPUT avg_mark
@@ -157,14 +157,14 @@ Pseudocode
             END IF
     END
 
-Flowchart
+### Flowchart
 
 ![passfail](https://github.com/user-attachments/assets/5931b330-6e85-48d4-a33a-47a1b8bbf054)
 
-9. Calculate Factorial of a Number
+## 9. Calculate Factorial of a Number
 Write the algorithm and draw the flowchart that input a number and calculate its factorial using a loop.
 
-Pseudocode
+### Pseudocode
    
     START
         INPUT Positive number n
@@ -177,15 +177,15 @@ Pseudocode
             PRINT fact
     END
 
-Flowchart
+### Flowchart
 
 ![factorial](https://github.com/user-attachments/assets/a3c4cbc3-8857-43bb-b526-d7f2e89e81dd)
 
 
-10. Calculate Discount on Purchase
+## 10. Calculate Discount on Purchase
 Write the algorithm and draw the flowchart for a program that inputs the purchase amount and gives a 10% discount if the amount is greater than 1000.
 
-Pseudocode
+### Pseudocode
     
     START
         INPUT amount a
@@ -197,7 +197,7 @@ Pseudocode
                 PRINT Discount
     END
 
-Flowchart
+### Flowchart
 
 ![discount](https://github.com/user-attachments/assets/52b929ed-f141-4dee-b9a9-88e509294b4c)
 
