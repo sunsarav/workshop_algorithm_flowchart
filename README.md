@@ -1,6 +1,6 @@
-**Workshop: Algorithm and Flowchart**
+#**Workshop: Algorithm and Flowchart**
 
-**1. Check even or odd number**
+##**1. Check even or odd number**
 Design an algorithm and flowchart that take a number as input and determine whether it is even or odd.
 
 Pseudocode
