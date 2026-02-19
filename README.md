@@ -3,7 +3,7 @@
 ## **1. Check even or odd number**
 Design an algorithm and flowchart that take a number as input and determine whether it is even or odd.
 
-Pseudocode
+### Pseudocode
 
     START
         INPUT number
@@ -14,7 +14,7 @@ Pseudocode
             ENDIF
     END
 
-Flowchart
+### Flowchart
 
 ![evenodd](https://github.com/user-attachments/assets/faebf47c-6bc5-4ede-a5a5-ed90f26c00a5)
 
