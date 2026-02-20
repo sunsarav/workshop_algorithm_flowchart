@@ -1,0 +1,66 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.4.0">
+  <diagram name="Page-1" id="51b6n0fedvuV2bb8RKOH">
+    <mxGraphModel dx="786" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="evekE_j12jCAvGxs3ZBA-3" edge="1" parent="1" source="evekE_j12jCAvGxs3ZBA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="evekE_j12jCAvGxs3ZBA-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="evekE_j12jCAvGxs3ZBA-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Start" vertex="1">
+          <mxGeometry height="80" width="140" x="340" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="evekE_j12jCAvGxs3ZBA-7" edge="1" parent="1" source="evekE_j12jCAvGxs3ZBA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="evekE_j12jCAvGxs3ZBA-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="evekE_j12jCAvGxs3ZBA-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Input number n" vertex="1">
+          <mxGeometry height="60" width="180" x="320" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="evekE_j12jCAvGxs3ZBA-9" edge="1" parent="1" source="evekE_j12jCAvGxs3ZBA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="evekE_j12jCAvGxs3ZBA-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="evekE_j12jCAvGxs3ZBA-6" parent="1" style="whiteSpace=wrap;html=1;" value="Set i = 1" vertex="1">
+          <mxGeometry height="60" width="180" x="320" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="evekE_j12jCAvGxs3ZBA-11" edge="1" parent="1" source="evekE_j12jCAvGxs3ZBA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="evekE_j12jCAvGxs3ZBA-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="evekE_j12jCAvGxs3ZBA-14" edge="1" parent="1" source="evekE_j12jCAvGxs3ZBA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="evekE_j12jCAvGxs3ZBA-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="evekE_j12jCAvGxs3ZBA-8" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="i &amp;lt;= 10 ?" vertex="1">
+          <mxGeometry height="80" width="180" x="320" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="evekE_j12jCAvGxs3ZBA-17" edge="1" parent="1" source="evekE_j12jCAvGxs3ZBA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="evekE_j12jCAvGxs3ZBA-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="evekE_j12jCAvGxs3ZBA-10" parent="1" style="whiteSpace=wrap;html=1;" value="P = i x n" vertex="1">
+          <mxGeometry height="60" width="150" x="130" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="evekE_j12jCAvGxs3ZBA-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="200" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="evekE_j12jCAvGxs3ZBA-21" edge="1" parent="1" source="evekE_j12jCAvGxs3ZBA-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="evekE_j12jCAvGxs3ZBA-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="evekE_j12jCAvGxs3ZBA-13" parent="1" style="whiteSpace=wrap;html=1;" value="i = i + 1" vertex="1">
+          <mxGeometry height="60" width="140" x="340" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="evekE_j12jCAvGxs3ZBA-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="400" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="evekE_j12jCAvGxs3ZBA-19" edge="1" parent="1" source="evekE_j12jCAvGxs3ZBA-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="evekE_j12jCAvGxs3ZBA-16" parent="1" style="whiteSpace=wrap;html=1;" value="Print &quot;i x n = P&quot;" vertex="1">
+          <mxGeometry height="60" width="150" x="130" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="evekE_j12jCAvGxs3ZBA-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="End" vertex="1">
+          <mxGeometry height="80" width="140" x="340" y="780" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,3 +1,5 @@
+Workshop: Algorithm and Flowchart
+
 1. Check even or odd number
 Design an algorithm and flowchart that take a number as input and determine whether it is even or odd.
 
@@ -23,8 +25,8 @@ START
     INPUT m1
     INPUT m2
     INPUT m3
-        SET Total = m1 + m2 + m3
-        SET Average = Total / 3
+        Total = m1 + m2 + m3
+        Average = Total / 3
             PRINT Total 
             PRINT Average
 END
@@ -39,12 +41,12 @@ Pseudocode
 
 START
     INPUT number n
-        counter i = 1
-            WHILE i <= 10
-                Product P = i x n
-                    PRINT "i x n = P"
+        i = 1
+            WHILE i <= 10 DO
+                Product P = n * i
+                    PRINT n, "x", i "=" P
                 i = i + 1
-            END WHILE
+            ENDWHILE
 END
 
 Flowchart
@@ -56,13 +58,13 @@ Pseudocode
 
 START
     INPUT number n
-        iF n > 0
+        IF n > 0 THEN
             PRINT "Number is Positive"
-        ELSE IF n < 0
+        ELSE IF n < 0 THEN
             PRINT "Number is Negative"
         ELSE
             PRINT "Number is equal to zero"
-        END IF
+        ENDIF
 END
 
 Flowchart
@@ -94,17 +96,15 @@ Write the algorithm and draw the flowchart for a program that takes the temperat
 Pseudocode
 
 START
-    SET sum_temp = 0.0
-    SET avg_temp = 0.0
-    SET num_days = 7
-        FOR 1 TO 7
-            PRINT "Enter temp of day" + day
-                READ current_temp
-                sum_temp = current_temp + sum_temp
-        END FOR
-
-                avg_temp = sum_temp / num_days
-            PRINT "Average temperature of the week" + avg_temp
+    sum = 0
+    day = 1
+        WHILE day <= 7 DO
+            INPUT temp
+                sum = sum + temp
+                day = day + 1
+        ENDWHILE
+                avg = sum / 7
+            PRINT average
 END
 
 Flowchart
@@ -117,7 +117,7 @@ Pseudocode
 START
     INPUT length l
     INPUT width w
-        Area a = l x w
+        Area a = l * w
     PRINT Area
 END
 
@@ -130,11 +130,11 @@ Pseudocode
 
 START
     INPUT avg_mark
-        IF avg_mark >= 50
+        IF avg_mark >= 50 THEN
             PRINT "Pass"
         ELSE
             PRINT "Fail"
-        END IF
+        ENDIF
 END
 
 Flowchart
@@ -148,10 +148,10 @@ START
     INPUT Positive number n
         fact = 1
         i = 1
-    For i FROM 1 TO n
-        fact = fact x i
+    WHILE i <= n DO
+        fact = fact * i
         i = i + 1
-    END FOR
+    ENDWHILE
         PRINT fact
 END
 
@@ -168,8 +168,10 @@ START
             Discount = a x 0.10
         ELSE 
             Discount = 0
-        END IF
+        ENDIF
+            Final amount = a - Discount
         PRINT Discount
+        PRINT Final amount
 END
 
 Flowchart
