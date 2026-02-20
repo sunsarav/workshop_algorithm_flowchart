@@ -28,8 +28,8 @@ Write the algorithm and draw the flowchart for a program that inputs marks for 3
         INPUT m1
         INPUT m2
         INPUT m3
-            SET Total = m1 + m2 + m3
-            SET Average = Total / 3
+            Total = m1 + m2 + m3
+            Average = Total / 3
                 PRINT Total 
                 PRINT Average
     END
@@ -46,11 +46,11 @@ Create an algorithm and flowchart that input a number and display its multiplica
    
     START
         INPUT number n
-        counter i = 1
-            WHILE i <= 10
-                Product P = i x n
-                    PRINT "i x n = P"
-                i = i + 1
+        i = 1
+            WHILE i <= 10 DO
+                Product P = n * i
+                    PRINT n, "x", i, "=", P
+        i = i + 1
             END WHILE
     END
 
