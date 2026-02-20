@@ -7,11 +7,11 @@ Design an algorithm and flowchart that take a number as input and determine whet
 
     START
         INPUT number
-            IF number % 2 == 0 THEN
-                PRINT Even
-            ELSE
-                PRINT Odd
-            ENDIF
+        IF number % 2 == 0 THEN
+            PRINT Even
+        ELSE
+            PRINT Odd
+        ENDIF
     END
 
 ### Flowchart
@@ -28,10 +28,10 @@ Write the algorithm and draw the flowchart for a program that inputs marks for 3
         INPUT m1
         INPUT m2
         INPUT m3
-            Total = m1 + m2 + m3
-            Average = Total / 3
-                PRINT Total 
-                PRINT Average
+        Total = m1 + m2 + m3
+        Average = Total / 3
+            PRINT Total 
+            PRINT Average
     END
 
 ### Flowchart
@@ -47,11 +47,11 @@ Create an algorithm and flowchart that input a number and display its multiplica
     START
         INPUT number n
         i = 1
-            WHILE i <= 10 DO
-                Product P = n * i
-                    PRINT n, "x", i, "=", P
-        i = i + 1
-            END WHILE
+        WHILE i <= 10 DO
+            Product P = n * i
+            PRINT n, "x", i, "=", P
+            i = i + 1
+        ENDWHILE
     END
 
 ### Flowchart
@@ -66,13 +66,13 @@ Write the algorithm and flowchart to input a number and display whether it is po
     
     START
         INPUT number n
-            IF n > 0
-                PRINT "Number is Positive"
-            ELSE IF n < 0
-                PRINT "Number is Negative"
-            ELSE
-                PRINT "Number is equal to zero"
-            END IF
+        IF n > 0
+            PRINT "Number is Positive"
+        ELSEIF n < 0
+            PRINT "Number is Negative"
+        ELSE
+            PRINT "Number is equal to zero"
+        ENDIF
     END
 
 ### Flowchart
@@ -109,16 +109,15 @@ Write the algorithm and draw the flowchart for a program that takes the temperat
 ### Pseudocode
     
     START
-        SET sum_temp = 0.0
-        SET avg_temp = 0.0
-        SET num_days = 7
-            FOR 1 TO 7
-                PRINT "Enter temp of day" + day
-                    READ current_temp
-                    sum_temp = current_temp + sum_temp
-            END FOR
-                    avg_temp = sum_temp / num_days
-                PRINT "Average temperature of the week" + avg_temp
+        sum = 0
+        day = 1
+        WHILE day <= 7 DO
+            INPUT temp
+            sum = sum + temp
+            day = day + 1
+        ENDWHILE
+        avg = sum / 7
+            PRINT avg
     END
 
 ### Flowchart
@@ -134,8 +133,8 @@ Create an algorithm and flowchart to input length and width, calculate the area 
     START
         INPUT length l
         INPUT width w
-            Area a = l x w
-        PRINT Area
+            area = l * w
+        PRINT area
     END
 
 ### Flowchart
@@ -150,11 +149,11 @@ Write the algorithm and draw the flowchart for a program that takes a student's 
 
     START
         INPUT avg_mark
-            IF avg_mark >= 50
-                PRINT "Pass"
-            ELSE
-                PRINT "Fail"
-            END IF
+        IF avg_mark >= 50 THEN
+            PRINT "Pass"
+        ELSE
+            PRINT "Fail"
+        ENDIF
     END
 
 ### Flowchart
@@ -167,14 +166,14 @@ Write the algorithm and draw the flowchart that input a number and calculate its
 ### Pseudocode
    
     START
-        INPUT Positive number n
-            fact = 1
-            i = 1
-        For i FROM 1 TO n
-            fact = fact x i
+        INPUT n
+        fact = 1
+        i = 1
+        WHILE i <= n DO
+            fact = fact * i
             i = i + 1
-        END FOR
-            PRINT fact
+        ENDWHILE
+        PRINT fact
     END
 
 ### Flowchart
@@ -190,11 +189,13 @@ Write the algorithm and draw the flowchart for a program that inputs the purchas
     START
         INPUT amount a
             IF a >= 1000 THEN
-                Discount = a x 0.10
+                discount = a * 0.10
             ELSE 
-                Discount = 0
-            END IF
-                PRINT Discount
+                discount = 0
+            ENDIF
+            finalAmount = a - discount
+                PRINT discount
+                PRINT finalAmount
     END
 
 ### Flowchart
